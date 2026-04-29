@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Tracker</title>
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../assets/images/Aquatracker.png" type="image/x-icon">
+</head>
+<body data-page="" data-base="../">
+    <div id="site-header"></div>
+
+<!--Contenido-->
+    <div class="titulo-pagina">
+        <h1>CONTACTO</h1>
+        <hr>
+    </div>
+
+    <div class="contenido-contacto">
+        <div class="contact-izq">   
+            <div class="contact-info">
+                <div>
+                    <h2>Información de Contacto</h2>
+                    <p><strong>Teléfono:</strong> +34 922 123 456</p>
+                    <p><strong>Correo:</strong> aquatracker@hotmail.com</p>
+                    <p><strong>Dirección:</strong> Calle de San Juan de la Cruz, Tenerife, 38009.</p>
+                </div>
+            </div>
+            <div class="contact-rs">
+                <div>
+                    <h2>Redes Sociales</h2>
+                    <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                    <p><strong>Correo:</strong> contacto@ejemplo.com</p>
+                    <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-der">
+            <div class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                    <p>Si quisieras reportar alguna incidencia, sugerencia o simplemente hacer una pregunta, puedes hacerlo a través de este formulario.</p>
+                <form action="formulario.php" method="post">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+                    <label for="phone">Teléfono (opcional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Tu teléfono">
+
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje" required>
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>    
+    </div>
+
+    <div id="site-footer"></div>
+
+    <script src="../js/templates.js"></script>
+    <script src="../js/common.js"></script>
+</body>
+</html>

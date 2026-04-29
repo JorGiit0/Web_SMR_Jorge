@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden; /*Oculta el scroll en horizontal, independientemente del enfoque*/
+    background-color: blue;
+}
+
+.main-header {
+    background-image: url('../assets/images/tortuga-marina.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: block;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: -5vh;
+}
+  
+.secondary-logo {
+    width: 30vw;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-bottom: -5vh;
+}
+
+#menuinferior {
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+    #menu {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: -1vh;
+    background-color: aqua;
+    padding: 2vh;
+    width: 100%;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Amarurgt', sans-serif;
+    }
+
+.time-display {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    margin-left: 800px;
+    padding: 1vh 1vw;
+    background-color: coral;
+    }
+    
+.timezone {
+    margin: 0 1vw;
+    font-family: 'alarm-clock';
+    }
