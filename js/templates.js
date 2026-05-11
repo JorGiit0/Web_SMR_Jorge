@@ -116,10 +116,10 @@ function renderFooter() {
         <div class="copyright">
           <h2>Hecho por:</h2>
           <ul>
-            <li>Jorge Ruiz</li>
-            <li>Iman Stitou</li>
-            <li>Marcos Pérez</li>
-            <li>Álvaro Pérez</li>
+            <li>Jorge Vilches</li>
+            <li>Pepe Linares</li>
+            <li>Maria piñata</li>
+            <li>Cristian Sanchez</li>
           </ul>
         </div>
         <div class="version">
